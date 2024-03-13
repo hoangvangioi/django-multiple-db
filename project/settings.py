@@ -92,8 +92,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'app.db.sqlite3',
     },
     'app1_db': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'thientai0123',
+        'ENGINE': 'djongo',
+        'NAME': '',
         'CLIENT': {
             'host': ''
         },
